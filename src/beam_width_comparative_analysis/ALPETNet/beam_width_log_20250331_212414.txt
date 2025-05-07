@@ -1,0 +1,28 @@
+Using device: cuda:0
+Loading model from: weights/LipNet_overlap_patchnet_guide/LipNet_20250326_042518_loss_0.0608_wer_0.0416_cer_0.0171_bleu_0.9584.pt
+
+Testing pure_beam with different beam widths:
+  Testing beam width = 1
+    WER: 0.0416, CER: 0.0171, BLEU: 0.9584, Time: 125.37s
+  Testing beam width = 2
+    WER: 0.0416, CER: 0.0171, BLEU: 0.9584, Time: 164.00s
+  Testing beam width = 4
+    WER: 0.0416, CER: 0.0171, BLEU: 0.9584, Time: 164.21s
+  Testing beam width = 8
+    WER: 0.0416, CER: 0.0171, BLEU: 0.9584, Time: 163.85s
+  Testing beam width = 16
+    WER: 0.0416, CER: 0.0171, BLEU: 0.9584, Time: 164.22s
+
+Testing char_lm with different beam widths:
+  Testing beam width = 1
+    WER: 0.0455, CER: 0.0182, BLEU: 0.9545, Time: 163.20s
+  Testing beam width = 2
+    WER: 0.0434, CER: 0.0178, BLEU: 0.9565, Time: 163.62s
+  Testing beam width = 4
+    WER: 0.0433, CER: 0.0177, BLEU: 0.9567, Time: 163.95s
+  Testing beam width = 8
+    WER: 0.0432, CER: 0.0177, BLEU: 0.9567, Time: 163.72s
+  Testing beam width = 16
+    WER: 0.0432, CER: 0.0177, BLEU: 0.9567, Time: 164.61s
+
+Results saved to beam_width_comparative_analysis/ALPETNet/beam_width_results.json
