@@ -1,5 +1,28 @@
 # Final Year Individual Dissertation
 
+## Table of Contents
+* [Description](#description)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+    * [Option 1: Clone the repository](#option-1-clone-the-repository)
+    * [Option 2: Use the provided ZIP file](#option-2-use-the-provided-zip-file)
+    * [Setting up the environment](#setting-up-the-environment)
+    * [Installing KenLM (Linux only)](#installing-kenlm-linux-only)
+  * [Downloading and Preprocessing GRID Corpus Data](#downloading-and-preprocessing-grid-corpus-data)
+    * [1. Download GRID Corpus](#1-download-grid-corpus)
+    * [2. Required Preprocessing](#2-required-preprocessing)
+* [Code Structure](#code-structure)
+* [Configuration System](#configuration-system)
+  * [Configuration Structure](#configuration-structure)
+  * [Usage](#usage)
+  * [Important Notes](#important-notes)
+* [Usage](#usage-1)
+  * [Training Scripts](#training-scripts)
+  * [Evaluation Scripts](#evaluation-scripts)
+  * [Saliency Visualisation](#saliency-visualisation)
+* [Acknowledgments](#acknowledgments)
+  
 ## Description
 
 This dissertation explores a hybrid approach to Visual Speech Recognition
